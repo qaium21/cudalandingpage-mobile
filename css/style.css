@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:Crimson Text;
+}
+/* header part */
+header{
+    background-color: #87509c;
+
+}
+.logo-part{
+    padding:15px 5px;
+
+}
+
+.menu-part ul{
+    text-align: right;
+    padding: 15px 5px;
+
+
+}
+.menu-part ul :hover{
+    background-color: rgb(113, 52, 153);
+    transition: ease-in-out 0.8s;
+}
+.menu-part li{
+    display: inline-block;
+    padding: 7px;
+   
+    margin: 15px 10px;
+    
+    border-radius: 10px;
+    list-style: none;
+
+}
+.menu-part li a{
+    color: #ffffff;
+    font-size:15px;
+    text-transform: uppercase;
+text-decoration: none;
+}
+.hero-part{
+    text-align: center;
+    padding: 100px 60px;
+
+
+}
+.hero-part h1{
+    color: #ffffff;
+    
+
+}
+.hero-part button{
+    color: white;
+    background-color: #eb7d4b;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.404) 5px 5px;
+
+}
+.hero-part button:hover{
+    background-color: #17c2a4;
+    transition: ease-in-out 0.9s;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+.row{
+    width: 100%;
+    float: left;
+}
+section{
+    padding: 100px 0px;
+    text-align: center;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.50px;
+}
+.sub-heading{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin:10px;
+
+}
+.underline{
+    border: solid 4px rgba(0, 0, 0, 0.315);
+    width:5%;
+    margin: 10px auto;
+    
+
+}
+.service-writing-part{
+    padding-bottom: 10px;
+}
+.service-box-part{
+    padding-top:10px;
+}
+.service-box{
+    margin:auto;
+    padding: 10px;
+}
+.service-box img{
+    height: 90px;
+}
+/* team part */
+.team-writing-part{
+    padding-bottom: 10px;
+}
+
+.team-box{
+    margin:auto;
+    padding: 10px;
+}
+.team-box img{
+    height: 100px;
+}
+/* skill part */
+.skill-writing-part{
+    padding-bottom: 10px;
+}
+.skill-part{
+    padding-top:10px;
+}
+.skill-part{
+    margin:auto;
+    padding: 10px;
+}
+.skill-part img{
+    height: 100px;
+}
+/* fortfolio part */
+.fortfolio-writing-part{
+    padding-bottom: 10px;
+}
+.fortfolio-part{
+    padding-top:10px;
+}
+.fortfolio-part{
+    margin:auto;
+    padding: 10px;
+}
+.fortfolio-part img{
+    height: 170px;
+}
+
+
+.fortfolio-button ul{
+    margin: 15px;
+    
+
+}
+.fortfolio-button ul :hover{
+    background-color: aliceblue;
+    transition: ease-in 0.8s;
+}
+.fortfolio-button li{
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 5px 7px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.fortfolio-button li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+#load-button{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #17c2a4;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+
+/* team icon */
+.team-icon i{
+color: #ffffff;
+background-color: #17c2a369;
+padding:5px;
+margin:10px 3px;
+border-radius:10px;
+width:25px;
+}
+
+
+
+.col-1 {width: 8.33%; float: left;}
+.col-2 {width: 16.66%;float: left;}
+.col-3 {width: 25%;float: left;}
+.col-4 {width: 33.33%;float: left;}
+.col-5 {width: 41.66%;float: left;}
+.col-6 {width: 50%;float: left;}
+.col-7 {width: 58.33%;float: left;}
+.col-8 {width: 66.66%;float: left;}
+.col-9 {width: 75%;float: left;}
+.col-10 {width: 83.33%;float: left;}
+.col-11 {width: 91.66%;float: left;}
+.col-12 {width: 100%;float: left;}
+
+#team{
+    background-color: #e7f1f8;
+}
+#service{
+    background-color: #17c2a4;
+    color: #ffffff;
+}
+#Skill{
+    background-color: #ffffff;
+}
+#fortfolio{
+    background-color: #ffdd99;
+}
+#about{
+    background-color: #d74680;
+}
+.about-writing-part{
+    margin-bottom:80px;
+
+}
+.about-description-part{
+    margin-top: 30px;
+
+}
+
+#contact{
+    background-color: #3c5499;
+}
+.contact-writing-part{
+    color: white;
+    margin-bottom: 11px;
+    padding: auto;
+}
+
+input{
+    background-color: #3c5499;
+    color: white;
+}
+
+.form-name{
+    width: 50%;
+    text-align: end;
+    padding: 0px 5px;
+    
+
+}
+.form-email{
+    width: 50%;
+    text-align: start;
+    
+    padding: 0px 5px;
+}
+input[type="text"]{
+    width: 50%;
+    background-color: #273a71;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input[type="email"]{
+    width: 50%;
+    background-color: #273a71;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+textarea{
+    background-color: #273a71;
+    width: 50%;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+
+}
+input[type="submit"]{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #30bae7;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+}
+footer{
+    background-color: #344b8e;
+}
+footer ul{
+    text-align: center;
+    padding: 0px 15px;
+
+
+}
+footer li{
+display: inline-block;
+margin: 20px 10px;
+
+}
+footer a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
